@@ -14,8 +14,7 @@ theme:
   features:
     - navigation.path
     - navigation.sections
-extra_css:
-  - stylesheets/extra.css
+extra_css: [stylesheets/extra.css]
 nav:
   - What is Visprex?: index.md
   - Getting Started:
