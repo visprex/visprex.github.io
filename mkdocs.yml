@@ -1,0 +1,25 @@
+site_name: Visprex Documentation
+site_url: https://docs.visprex.com
+repo_url: https://github.com/visprex/visprex
+repo_name: visprex/visprex
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: black
+  logo: assets/images/visprex.png
+  favicon: assets/images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.path
+    - navigation.sections
+extra_css:
+  - stylesheets/extra.css
+nav:
+  - What is Visprex?: index.md
+  - Getting Started:
+      - Load your dataset: features/datasets/index.md
+      - Understand feature distributions: features/histogram/index.md
+      - Visualise linear relationships: features/scatterplot/index.md
+      - Check feature correlations: features/correlation/index.md
