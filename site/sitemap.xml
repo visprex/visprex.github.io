@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://docs.visprex.com/</loc>
+         <loc>https://visprex.github.io/</loc>
          <lastmod>2024-10-20</lastmod>
     </url>
     <url>
-         <loc>https://docs.visprex.com/features/correlation/</loc>
+         <loc>https://visprex.github.io/features/correlation/</loc>
          <lastmod>2024-10-20</lastmod>
     </url>
     <url>
-         <loc>https://docs.visprex.com/features/datasets/</loc>
+         <loc>https://visprex.github.io/features/datasets/</loc>
          <lastmod>2024-10-20</lastmod>
     </url>
     <url>
-         <loc>https://docs.visprex.com/features/histogram/</loc>
+         <loc>https://visprex.github.io/features/histogram/</loc>
          <lastmod>2024-10-20</lastmod>
     </url>
     <url>
-         <loc>https://docs.visprex.com/features/scatterplot/</loc>
+         <loc>https://visprex.github.io/features/scatterplot/</loc>
          <lastmod>2024-10-20</lastmod>
     </url>
 </urlset>
