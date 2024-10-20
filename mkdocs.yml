@@ -1,5 +1,6 @@
 site_name: Visprex Documentation
 repo_url: https://github.com/visprex/visprex
+site_url: https://docs.visprex.com
 repo_name: visprex/visprex
 theme:
   name: material
