@@ -12,7 +12,7 @@ Visprex is a lightweight data visualisation platform that helps you speed up you
 - No tracking or analytics software is used for privacy
 
 ### 📖 Open
-- Visprex is an **open-access** software: [visprex.com](https://visprex.com)
+- Visprex is an **open-access** software: [visprex.com](https://www.visprex.com)
 - Source code is fully **open-source** on GitHub: [github.com/visprex/visprex](https://github.com/visprex/visprex)
 
 ## Who is Visprex for?
