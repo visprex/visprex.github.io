@@ -8,7 +8,7 @@ theme:
     scheme: slate
     primary: black
   logo: assets/images/visprex.png
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.ico
   icon:
     repo: fontawesome/brands/github
   features:
