@@ -18,7 +18,7 @@ extra_css: [stylesheets/extra.css]
 nav:
   - What is Visprex?: index.md
   - Getting Started:
-      - Load your dataset: features/datasets/index.md
-      - Understand feature distributions: features/histogram/index.md
-      - Visualise linear relationships: features/scatterplot/index.md
-      - Check correlations between features: features/correlation/index.md
+    - Load your dataset: features/datasets/index.md
+    - Understand feature distributions: features/histogram/index.md
+    - Visualise linear relationships: features/scatterplot/index.md
+    - Check correlations between features: features/correlation/index.md

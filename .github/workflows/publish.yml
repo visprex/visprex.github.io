@@ -15,5 +15,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CONFIG_FILE: mkdocs.yml
+          CUSTOM_DOMAIN: docs.visprex.com
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
