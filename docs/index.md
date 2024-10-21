@@ -25,5 +25,5 @@ There's no need for starting your computing environment on your machine or writi
 ### Data Scientists
 Visprex is also suitable for data scientists who would like to quickly inspect their tabular data for analytical purposes, without worrying about privacy or PII as no data is sent outside of your browser.
 
-
-
+## Quickstart
+You can start visualising your data with just a few clicks by first [loading your dataset](features/datasets/index.md).
