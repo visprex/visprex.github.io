@@ -1,4 +1,4 @@
-# Check feature distributions
+# Understand feature distributions
 
 **Histograms** are useful for visually inspecting feature distributions, and especially to check if it follows a normal (Gaussian) distribution.
 

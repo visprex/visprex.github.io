@@ -21,4 +21,4 @@ nav:
       - Load your dataset: features/datasets/index.md
       - Understand feature distributions: features/histogram/index.md
       - Visualise linear relationships: features/scatterplot/index.md
-      - Check feature correlations: features/correlation/index.md
+      - Check correlations between features: features/correlation/index.md
