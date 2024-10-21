@@ -1,8 +1,6 @@
 # Load your dataset
 
-To get started on your visualisations, you should first see the `Datasets` tab on [visprex.com](https://visprex.com/#datasets).
-
-For demonstration purposes, you can also choose from publicly available example datasets.
+To get started on your visualisations, you should first see the `Datasets` tab on [visprex.com](https://visprex.com/#datasets). For demonstration purposes, you can also choose from publicly available example datasets.
 
 ## Data format
 Visprex currently only supports CSV files. Your CSV file should be delimited by commas, and the end of each row should be followed by a new line.
