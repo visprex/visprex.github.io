@@ -6,6 +6,7 @@ on:
 jobs:
   build:
     name: Deploy
+    if: github.repository == 'visprex/visprex.github.io'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
