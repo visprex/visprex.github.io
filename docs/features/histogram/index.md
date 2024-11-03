@@ -29,10 +29,11 @@ From the Iris dataset, the histogram for the `Species` feature shows how many da
 
 ## Feature Transformation
 
-### Log transformation methods
-Visprex provides two feature transformations out-of-the-box, log10 and and natural log. You can see this in the `f(x)` section below the list of features.
+### Feature transformation methods
+Visprex provides three feature transformations out-of-the-box, squared, log10, and natural log. You can see this in the `f(x)` section below the list of features.
 
 - `x`: Default value. No transformation.
+- `x²`: Squared value.
 - `log10(x)`: Logarithmic trasformation with base 10.
 - `ln(x)`: Logarithmic transformation with base e.
 

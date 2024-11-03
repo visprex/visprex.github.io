@@ -1,7 +1,7 @@
 # ![Visprex](assets/images/logo.webp#center)
 
 ## What is Visprex?
-Visprex is a lightweight data visualisation platform that helps you speed up your statistical modelling and analytics workflow. The main high-level features include:
+Visprex is a lightweight data visualisation tool that helps you speed up your statistical modelling and analytics workflow. The main high-level features include:
 
 ### ⏱️ Quick
 - You can visualise your data **in seconds** to quickly build an intuition on your dataset
