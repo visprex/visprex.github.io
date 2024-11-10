@@ -5,7 +5,7 @@ Visprex is a lightweight data visualisation tool that helps you speed up your st
 
 ### ⏱️ Quick
 - You can visualise your data **in seconds** to quickly build an intuition on your dataset
-- No need for referring to specific sytax in your statistical analysis software
+- No need for referring to specific syntax in your statistical analysis software
 
 ### 🔒️ Secure
 - Your data is processed **entirely on your browser**, which means your data won't be sent anywhere

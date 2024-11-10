@@ -5,7 +5,7 @@
 ### Selecting features
 It is common to plot the dependent variable (the variable you want to model) on the Y-axis and the independent variables (the variables that you want to study the effects of) on the X-axis.
 
-Note that only `Numerical` features can be selected in scatter plots, and for each `Numerical` feature, we also have feature transformations explained in the [Feature Tranformation](../histogram/index.md#feature-transformation) section in the the previous tutorial.
+Note that only `Numerical` features can be selected in scatter plots, and for each `Numerical` feature, we also have feature transformations explained in the [Feature Tranformation](../histogram/index.md#feature-transformation) section in the previous tutorial.
 
 You can also hover over individual data point to see the actual feature values.
 

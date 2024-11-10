@@ -13,7 +13,7 @@ Your CSV file will be automatically parsed as one of two data types.
 - `Numerical`:  integers and floats (e.g `100`, `3.14`)
 - `Categorical`: string values (e.g `"male"`, `"autumn"`)
 
-Once your data is loaded, this information is shown in the botton part of the `Datasets` tab, where each column is assigned an index in order of appearance in the first line of your CSV file along with their inferred data type.
+Once your data is loaded, this information is shown in the bottom part of the `Datasets` tab, where each column is assigned an index in order of appearance in the first line of your CSV file along with their inferred data type.
 
 ## Load your CSV file
 Click on `Click to load your CSV file` and select your CSV file from your local machine.
