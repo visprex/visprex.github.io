@@ -34,7 +34,7 @@ Visprex provides three feature transformations out-of-the-box, squared, log10, a
 
 - `x`: Default value. No transformation.
 - `x²`: Squared value.
-- `log10(x)`: Logarithmic trasformation with base 10.
+- `log10(x)`: Logarithmic transformation with base 10.
 - `ln(x)`: Logarithmic transformation with base e.
 
 ### When is log transformation useful?

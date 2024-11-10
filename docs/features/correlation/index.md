@@ -6,8 +6,8 @@ Note that categorical features are greyed out.
 
 In the `Correlation Matrix` tab, you can see a `N-by-N` grid of features where `N` is the number of features in your dataset.
 
-- Positive correlation is indicated in warm colous, which approximates red as it approaches 1
-- Negative correlation is indicated in cold colous, which approximates purple as it approaches -1
+- Positive correlation is indicated in warm colours, which approximates red as it approaches 1
+- Negative correlation is indicated in cold colours, which approximates purple as it approaches -1
 - When there is no strong correlation between two features (around 0), the colour gets closer to white
 
 ### Positive Correlations
