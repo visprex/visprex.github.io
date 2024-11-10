@@ -9,7 +9,7 @@ Visprex is a lightweight data visualisation tool that helps you speed up your st
 
 ### 🔒️ Secure
 - Your data is processed **entirely on your browser**, which means your data won't be sent anywhere
-- No tracking or analytics software is used for privacy
+- No tracking or analytics software is used
 
 ### 📖 Open Source
 - Source code is fully **open source** on GitHub: [github.com/visprex/visprex](https://github.com/visprex/visprex)
