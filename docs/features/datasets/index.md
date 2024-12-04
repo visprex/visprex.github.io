@@ -12,6 +12,7 @@ Your CSV file will be automatically parsed as one of two data types.
 
 - `Numerical`:  integers and floats (e.g `100`, `3.14`)
 - `Categorical`: string values (e.g `"male"`, `"autumn"`)
+- `DateTime`: date time values (e.g. `"1997-07-16"`, `"1997-07-16T19:20+01:00"`)
 
 Once your data is loaded, this information is shown in the bottom part of the `Datasets` tab, where each column is assigned an index in order of appearance in the first line of your CSV file along with their inferred data type.
 

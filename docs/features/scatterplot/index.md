@@ -1,6 +1,6 @@
 # Visualise linear relationships
 
-**Scatterplot** is an effective tool for visualising the relationship between two variables. 
+**Scatter Plot** is an effective tool for visualising the relationship between two variables. 
 
 ### Selecting features
 It is common to plot the dependent variable (the variable you want to model) on the Y-axis and the independent variables (the variables that you want to study the effects of) on the X-axis.
