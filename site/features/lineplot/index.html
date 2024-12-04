@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://docs.visprex.com/features/histogram/">
+        <link rel="canonical" href="https://docs.visprex.com/features/lineplot/">
       
       
-        <link rel="prev" href="../datasets/">
+        <link rel="prev" href="../correlation/">
       
-      
-        <link rel="next" href="../scatterplot/">
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Understand feature distributions - Visprex Documentation</title>
+        <title>Identify trends and seasonality over time - Visprex Documentation</title>
       
     
     
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#understand-feature-distributions" class="md-skip">
+        <a href="#identify-trends-and-seasonality-over-time" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Understand feature distributions
+              Identify trends and seasonality over time
             
           </span>
         </div>
@@ -305,30 +303,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Understand feature distributions
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../histogram/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -337,92 +315,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#selecting-a-feature" class="md-nav__link">
-    <span class="md-ellipsis">
-      Selecting a feature
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Selecting a feature">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#numerical-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Numerical features
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#categorical-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Categorical features
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#feature-transformation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Feature Transformation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Feature Transformation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#feature-transformation-methods" class="md-nav__link">
-    <span class="md-ellipsis">
-      Feature transformation methods
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#when-is-log-transformation-useful" class="md-nav__link">
-    <span class="md-ellipsis">
-      When is log transformation useful?
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -474,10 +366,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../lineplot/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Identify trends and seasonality over time
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -486,6 +398,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-your-time-series-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting up your time series data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zooming-into-specific-time-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zooming into specific time windows
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trends-and-seasonality" class="md-nav__link">
+    <span class="md-ellipsis">
+      Trends and Seasonality
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -525,68 +484,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#selecting-a-feature" class="md-nav__link">
+  <a href="#setting-up-your-time-series-data" class="md-nav__link">
     <span class="md-ellipsis">
-      Selecting a feature
+      Setting up your time series data
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Selecting a feature">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#numerical-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Numerical features
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#categorical-features" class="md-nav__link">
-    <span class="md-ellipsis">
-      Categorical features
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#feature-transformation" class="md-nav__link">
+  <a href="#zooming-into-specific-time-windows" class="md-nav__link">
     <span class="md-ellipsis">
-      Feature Transformation
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Feature Transformation">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#feature-transformation-methods" class="md-nav__link">
-    <span class="md-ellipsis">
-      Feature transformation methods
+      Zooming into specific time windows
     </span>
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
-  <a href="#when-is-log-transformation-useful" class="md-nav__link">
+      
+        <li class="md-nav__item">
+  <a href="#trends-and-seasonality" class="md-nav__link">
     <span class="md-ellipsis">
-      When is log transformation useful?
+      Trends and Seasonality
     </span>
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -608,40 +528,28 @@
   
 
 
-<h1 id="understand-feature-distributions">Understand feature distributions</h1>
-<p><strong>Histograms</strong> are useful for visually inspecting feature distributions, and especially to check if it follows a normal (Gaussian) distribution.</p>
-<p>Normal distributions provide several useful properties for statistical modelling and is one of the key assumptions of linear regression.</p>
-<h2 id="selecting-a-feature">Selecting a feature</h2>
-<p>Once you load a dataset in the <code>Datasets</code> tab. You can start visualising the distribution of your features by moving on to the <code>Histogram</code> tab.
-Following from the Datasets tutorial, we use the Iris dataset as an example.</p>
-<h3 id="numerical-features">Numerical features</h3>
-<p>When you select a <code>Numerical</code> feature, values are counted and put into small intervals (bins).</p>
-<p>Visually, this means that you can use the X-axis to see where those intervals fall and the Y-axis indicates the count of data points within each bin. For instance, if a bin for values between <code>1.4</code> and <code>1.6</code> has a count of 26, then there were 26 data points which fall into the range <code>[1.4, 1.6)</code>.</p>
-<p>This example is for the <code>PetalLengthCm</code> feature from the Iris dataset, which measures a flower's petal length in centimeters.</p>
-<p><img alt="hist_numerical" src="images/petal_length.png" /></p>
-<h3 id="categorical-features">Categorical features</h3>
-<p>When you select a <code>Categorical</code> feature, value counts are exact and the Y-axis shows how many data points had the exact values shown on the X-axis.</p>
-<p>From the Iris dataset, the histogram for the <code>Species</code> feature shows how many data points correspond to each species. In this example, you can see that each species is represented equally in this dataset.</p>
-<p><img alt="hist_categorical" src="images/species.png" /></p>
-<h2 id="feature-transformation">Feature Transformation</h2>
-<h3 id="feature-transformation-methods">Feature transformation methods</h3>
-<p>Visprex provides three feature transformations out-of-the-box, squared, log10, and natural log. You can see this in the <code>f(x)</code> section below the list of features.</p>
+<h1 id="identify-trends-and-seasonality-over-time">Identify trends and seasonality over time</h1>
+<p><strong>Time Series</strong> data consist of data points indexed by a <code>DateTime</code> feature, which can be visualised with a <strong>Line Plot</strong>.</p>
+<h2 id="setting-up-your-time-series-data">Setting up your time series data</h2>
+<p>Once you load your dataset with at least one feature of <code>DateTime</code> type, you can visualise <code>Numerical</code> values on the <strong>Line Plot</strong> tab.</p>
+<p>If you're using an example dataset, click on <code>restaurant-sales.csv</code> from the <code>Datasets</code> tab, which shows the aggregated monthly retail sales amount in the U.S. from restaurants and similar establishments, in USD millions.</p>
+<p>By default, only features of <code>DateTime</code> type are displayed as options for the X-Axis, and <code>Numerical</code> features on the Y-Axis.</p>
+<h2 id="zooming-into-specific-time-windows">Zooming into specific time windows</h2>
+<p>The <code>Time Range Filter</code> feature allows you to specify the window of time to display the line plot for by sliding the circles.</p>
+<p>Note that the start and end DateTime are displayed in the <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format.</p>
+<h2 id="trends-and-seasonality">Trends and Seasonality</h2>
+<p>Time series data can be decomposed into multiple components.</p>
 <ul>
-<li><code>x</code>: Default value. No transformation.</li>
-<li><code>x²</code>: Squared value.</li>
-<li><code>log10(x)</code>: Logarithmic transformation with base 10.</li>
-<li><code>ln(x)</code>: Logarithmic transformation with base e.</li>
+<li>A <strong>trend</strong> is an overall pattern in a given period of time</li>
+<li><strong>Seasonality</strong> refers to cyclic behaviours which happen at regular intervals</li>
 </ul>
-<h3 id="when-is-log-transformation-useful">When is log transformation useful?</h3>
-<p>Log transformation is useful when the distribution of your selected feature is heavily skewed to either side.</p>
-<p>For example, most distributions around money (income, house properties, GDP) tends to have a skewed distribution where a small group of data points show extremely high values.</p>
-<p>Choose <code>world-dataset-2023.csv</code> from example datasets.</p>
-<p><img alt="hist_world" src="images/world.png" /></p>
-<p>Click on <code>Histogram</code> tab and select the <code>GDP</code> feature. We can see that the distribution is heavily skewed to the right where countries with higest GDP values lie on the far right side of the histrogram.</p>
-<p><img alt="hist_gdp" src="images/gdp.png" /></p>
-<p>Click on <code>log10(x)</code> to transform the values to the base 10 logarithmic scale, then you can see that the distribution now closely approximates the normal distribution.</p>
-<p>Given that this value is denominated by the US Dollars and the base is 10, you can now read the bins on this histogram as the number of countries that fall into the range between <code>10^(x)</code> and <code>10^(x+d)</code>, where <code>d</code> is the difference between the start of the interval and the end of the interval on the histogram.</p>
-<p><img alt="hist_log_gdp" src="images/log10_gdp.png" /></p>
+<p>In the case of this restaurant sales data, for example, one can see</p>
+<ul>
+<li><strong>Uptrend</strong>: More people are spending more dollars over time</li>
+<li><strong>Monthly seasonality</strong>: Spending increases during warmer times of the year, such as spring and summer months, and during holiday seasons.</li>
+</ul>
+<p>From this line plot, you can also observe anomaly in the beginning of 2020, marked by a sudden decrease in overall spending at restaurants as COVID-19 hit the world.</p>
+<p><img alt="restraunt_sales" src="images/restaurant_sales_lineplot.png" /></p>
 
 
 
