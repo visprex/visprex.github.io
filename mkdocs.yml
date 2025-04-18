@@ -17,6 +17,12 @@ theme:
     - navigation.sections
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascript/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 nav:
   - What is Visprex?: index.md
   - Getting Started:
@@ -25,3 +31,4 @@ nav:
     - Visualise linear relationships: features/scatterplot/index.md
     - Identify trends and seasonality over time: features/lineplot/index.md
     - Check correlations between features: features/correlation/index.md
+    - Quantify your intuition with linear regression: features/modelling/index.md
