@@ -13,7 +13,7 @@ $$
 y_{i} = \beta_{0} + \beta_{1} x_{i1} + \beta_{2} x_{i2} + \cdots + \beta_{p} x_{ip} + \varepsilon_{i}
 $$
 
-where $\beta_{0}$ is the intercept and $\beta_{i}$ is the coefficient for a the $i$-th feature, with some error term $\varepsilon$.
+where $\beta_{0}$ is the intercept and $\beta_{i}$ is the coefficient for the $i$-th feature, with some error term $\varepsilon$.
 
 ### Modelling
 
@@ -30,6 +30,5 @@ where $\beta_{0}$ is the intercept and $\beta_{i}$ is the coefficient for a the 
 
 Once the model is fit, the Model Summary section displays your linear regression equation including the intercept term $\beta_0$. Key terms here include:
 
-- \( R^2 \) (Coefficent of determination): Measures the proportion of variance in the dependent variable explained by the independent variables. The higher this value is, the more explanatory power this model has.
-- P-values: Indicates statistical significance of each variable. Siginificance at the 0.01 level is denoted by `***`, 0.05 by `**` and 0.10 by `*`.
-
+- \( R^2 \) (Coefficient of determination): Measures the proportion of variance in the dependent variable explained by the independent variables. The higher this value is, the more explanatory power this model has.
+- P-values: Indicates statistical significance of each variable. Significance at the 0.01 level is denoted by `***`, 0.05 by `**` and 0.10 by `*`.
