@@ -8,13 +8,11 @@
       
       
       
-        <link rel="canonical" href="https://docs.visprex.com/features/lineplot/">
+        <link rel="canonical" href="https://docs.visprex.com/features/modelling/">
       
       
-        <link rel="prev" href="../scatterplot/">
+        <link rel="prev" href="../correlation/">
       
-      
-        <link rel="next" href="../correlation/">
       
       
       <link rel="icon" href="../../assets/images/favicon.ico">
@@ -22,7 +20,7 @@
     
     
       
-        <title>Identify trends and seasonality over time - Visprex Documentation</title>
+        <title>Quantify your intuition with linear regression - Visprex Documentation</title>
       
     
     
@@ -74,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#identify-trends-and-seasonality-over-time" class="md-skip">
+        <a href="#quantify-your-intuition-with-linear-regression" class="md-skip">
           Skip to content
         </a>
       
@@ -109,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Identify trends and seasonality over time
+              Quantify your intuition with linear regression
             
           </span>
         </div>
@@ -347,30 +345,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Identify trends and seasonality over time
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../lineplot/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -379,53 +357,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#setting-up-your-time-series-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Setting up your time series data
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#zooming-into-specific-time-windows" class="md-nav__link">
-    <span class="md-ellipsis">
-      Zooming into specific time windows
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trends-and-seasonality" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trends and Seasonality
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -456,10 +387,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../modelling/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Quantify your intuition with linear regression
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -468,6 +419,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ordinary-least-squares" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ordinary Least Squares
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelling" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelling
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -507,27 +496,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setting-up-your-time-series-data" class="md-nav__link">
+  <a href="#ordinary-least-squares" class="md-nav__link">
     <span class="md-ellipsis">
-      Setting up your time series data
+      Ordinary Least Squares
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#zooming-into-specific-time-windows" class="md-nav__link">
+  <a href="#modelling" class="md-nav__link">
     <span class="md-ellipsis">
-      Zooming into specific time windows
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trends-and-seasonality" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trends and Seasonality
+      Modelling
     </span>
   </a>
   
@@ -551,28 +531,32 @@
   
 
 
-<h1 id="identify-trends-and-seasonality-over-time">Identify trends and seasonality over time</h1>
-<p><strong>Time Series</strong> data consist of data points indexed by a <code>DateTime</code> feature, which can be visualised with a <strong>Line Plot</strong>.</p>
-<h2 id="setting-up-your-time-series-data">Setting up your time series data</h2>
-<p>Once you load your dataset with at least one feature of <code>DateTime</code> type, you can visualise <code>Numerical</code> values on the <strong>Line Plot</strong> tab.</p>
-<p>If you're using an example dataset, click on <code>restaurant-sales.csv</code> from the <code>Datasets</code> tab, which shows the aggregated monthly retail sales amount in the U.S. from restaurants and similar establishments, in USD millions.</p>
-<p>By default, only features of <code>DateTime</code> type are displayed as options for the X-Axis, and <code>Numerical</code> features on the Y-Axis.</p>
-<h2 id="zooming-into-specific-time-windows">Zooming into specific time windows</h2>
-<p>The <code>Time Range Filter</code> feature allows you to specify the window of time to display the line plot for by sliding the circles.</p>
-<p>Note that the start and end DateTime are displayed in the <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO 8601</a> format.</p>
-<h2 id="trends-and-seasonality">Trends and Seasonality</h2>
-<p>Time series data can be decomposed into multiple components.</p>
+<h1 id="quantify-your-intuition-with-linear-regression">Quantify your intuition with linear regression</h1>
+<p><strong>Linear Regression</strong> helps you model the linear relationship between a variable of your interest (dependent variable) and a set of explanatory variables (independent variables) that describe the variance in the dependent variable.</p>
+<h3 id="ordinary-least-squares">Ordinary Least Squares</h3>
+<p>When you <a href="../datasets/">load your dataset</a>, the <code>Data Schema</code> section describes the data types of your variables as well as the shape of the dataset with the number of rows and columns.</p>
+<p>For our modelling purposes, we can consider the number of rows as the number of observations <span class="arithmatex">\(n\)</span> and the number of columns as the number of variables to choose from for your independent and dependent variables.</p>
+<p>A dependent variable can be described as a vector <span class="arithmatex">\(y\)</span> and</p>
+<div class="arithmatex">\[
+y_{i} = \beta_{0} + \beta_{1} x_{i1} + \beta_{2} x_{i2} + \cdots + \beta_{p} x_{ip} + \varepsilon_{i}
+\]</div>
+<p>where <span class="arithmatex">\(\beta_{0}\)</span> is the intercept and <span class="arithmatex">\(\beta_{i}\)</span> is the coefficient for the <span class="arithmatex">\(i\)</span>-th feature, with some error term <span class="arithmatex">\(\varepsilon\)</span>.</p>
+<h3 id="modelling">Modelling</h3>
+<p><img alt="Linear Regression Interface" src="images/regression.png" /></p>
+<blockquote>
+<p>Example: If you wanted to estimate the effect of the number of bedrooms and the area on housing prices, you could set <code>area</code> and <code>bedrooms</code> as the independent variables and <code>price</code> as the dependent variable from the <code>housing.csv</code> example dataset. Refer to the <a href="../scatterplot/">scatterplot</a> section on visualising such linear relationships.</p>
+</blockquote>
+<p><strong>Model Specification</strong></p>
 <ul>
-<li>A <strong>trend</strong> is an overall pattern in a given period of time</li>
-<li><strong>Seasonality</strong> refers to cyclic behaviours which happen at regular intervals</li>
+<li><strong>Y: Dependent Variable</strong>: Choose the variable you want to predict. Only numerical variables are available for selection.</li>
+<li><strong>X: Independent Variables</strong>: Select one or more numerical variables that explain the variance in the dependent variable.</li>
 </ul>
-<p>In the case of this restaurant sales data, for example, one can see</p>
+<p><strong>Model Summary</strong></p>
+<p>Once the model is fit, the Model Summary section displays your linear regression equation including the intercept term <span class="arithmatex">\(\beta_0\)</span>. Key terms here include:</p>
 <ul>
-<li><strong>Uptrend</strong>: More people are spending more dollars over time</li>
-<li><strong>Monthly seasonality</strong>: Spending increases during warmer times of the year, such as spring and summer months, and during holiday seasons.</li>
+<li><span class="arithmatex">\( R^2 \)</span> (Coefficient of determination): Measures the proportion of variance in the dependent variable explained by the independent variables. The higher this value is, the more explanatory power this model has.</li>
+<li>P-values: Indicates statistical significance of each variable. Significance at the 0.01 level is denoted by <code>***</code>, 0.05 by <code>**</code> and 0.10 by <code>*</code>.</li>
 </ul>
-<p>From this line plot, you can also observe anomaly in the beginning of 2020, marked by a sudden decrease in overall spending at restaurants as COVID-19 hit the world.</p>
-<p><img alt="restraunt_sales" src="images/restaurant_sales_lineplot.png" /></p>
 
 
 
